@@ -1,6 +1,6 @@
 # Angular Data Dashboard
 
-Angular app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), pie-chart and table-chart.
+Angular app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -21,7 +21,7 @@ Google chart tools have a wide range of interactive charts and data tools.
 
 ## Screenshots
 
-![Example screenshot](./img/line-chart.png)
+![Example screenshot](./img/charts.png)
 
 ## Technologies
 
@@ -30,6 +30,8 @@ Google chart tools have a wide range of interactive charts and data tools.
 * [Angular framework v7.2.15](https://angular.io/)
 
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
+
+* [Bootstrap v4.3.1](https://getbootstrap.com/)
 
 ## Setup
 
@@ -74,9 +76,11 @@ private drawChart() {
 
 * Dashboards can be used to manage multiple charts that share the same data.
 
+* Data can also be fetched from a REST API endpoint or database service call.
+
 ## Status & To-Do List
 
-* Status: working app that displays a line chart.
+* Status: working app that displays a line chart, pie-chart and table-chart.
 
 * To-Do: Add other chart types, including gauges...
 
