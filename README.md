@@ -1,6 +1,6 @@
 # Angular Data Dashboard
 
-Angular app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+Angular 8 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -25,9 +25,9 @@ Google chart tools have a wide range of interactive charts and data tools.
 
 ## Technologies
 
-* [Angular CLI v7.3.9](https://github.com/angular/angular-cli)
+* [Angular CLI v8.0.1](https://github.com/angular/angular-cli)
 
-* [Angular framework v7.2.15](https://angular.io/)
+* [Angular framework v8.0.0](https://angular.io/)
 
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 
@@ -38,8 +38,6 @@ Google chart tools have a wide range of interactive charts and data tools.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
@@ -78,9 +76,11 @@ private drawChart() {
 
 * Data can also be fetched from a REST API endpoint or database service call.
 
+* Updated to Angular 8.
+
 ## Status & To-Do List
 
-* Status: working app that displays a line chart, pie-chart and table-chart.
+* Status: working Angular 8 app that displays a line chart, pie-chart and table-chart.
 
 * To-Do: Add other chart types, including gauges...
 
@@ -92,4 +92,4 @@ private drawChart() {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
