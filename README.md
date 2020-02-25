@@ -1,6 +1,6 @@
 # Angular Data Dashboard
 
-Angular 8 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+Angular 9 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -25,9 +25,7 @@ Google chart tools have a wide range of interactive charts and data tools.
 
 ## Technologies
 
-* [Angular CLI v8.0.1](https://github.com/angular/angular-cli)
-
-* [Angular framework v8.0.0](https://angular.io/)
+* [Angular framework v9.1.0](https://angular.io/)
 
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 
@@ -35,11 +33,10 @@ Google chart tools have a wide range of interactive charts and data tools.
 
 ## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Run `nopm i` to install dependencies.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Code Examples
 
@@ -76,13 +73,13 @@ private drawChart() {
 
 * Data can also be fetched from a REST API endpoint or database service call.
 
-* Updated to Angular 8.
+* Updated to Angular 9.
 
 ## Status & To-Do List
 
-* Status: working Angular 8 app that displays a line chart, pie-chart and table-chart.
+* Status: working pp that displays a line chart, pie-chart and table-chart.
 
-* To-Do: Add other chart types, including gauges...
+* To-Do: Add other chart types, including gauges...App is designed for PC/tablet, does not resize for phone size - could use angular mat cards or flex-grid to make it fully responsive.
 
 ## Inspiration
 
