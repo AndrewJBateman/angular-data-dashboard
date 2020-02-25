@@ -33,7 +33,7 @@ Google chart tools have a wide range of interactive charts and data tools.
 
 ## Setup
 
-* Run `nopm i` to install dependencies.
+* Run `npm i` to install dependencies.
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 * Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
@@ -67,7 +67,7 @@ private drawChart() {
 
 ## Features
 
-* cross-browser compatibility.
+* Cross-browser compatibility.
 
 * Dashboards can be used to manage multiple charts that share the same data.
 
@@ -77,9 +77,9 @@ private drawChart() {
 
 ## Status & To-Do List
 
-* Status: working pp that displays a line chart, pie-chart and table-chart.
+* Status: working app that displays a line chart, pie-chart and table-chart.
 
-* To-Do: Add other chart types, including gauges...App is designed for PC/tablet, does not resize for phone size - could use angular mat cards or flex-grid to make it fully responsive.
+* To-Do: Add other chart types, including gauges. App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive.
 
 ## Inspiration
 
