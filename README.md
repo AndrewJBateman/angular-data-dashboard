@@ -1,47 +1,48 @@
-# Angular Data Dashboard
+# :zap: Angular Data Dashboard
 
-Angular 9 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+* Angular 9 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Data Dashboard](#zap-angular-data-dashboard)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 Google chart tools have a wide range of interactive charts and data tools.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/charts.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular framework v9.1.0](https://angular.io/)
-
+* [Angular framework v9](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
+* [Bootstrap v4](https://getbootstrap.com/)
 
-* [Bootstrap v4.3.1](https://getbootstrap.com/)
-
-## Setup
+## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies.
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 * Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Code Examples
+## :computer: Code Examples
 
 ```typescript
-// method using the Google Charts library using the gLib variable
+// method using the Google Charts library with the gLib variable
 // create a new chart using the LineChart method, passing in the container div to show the line chart.
 private drawChart() {
   const data = this.gLib.visualization.arrayToDataTable([
@@ -65,28 +66,23 @@ private drawChart() {
 
 ```
 
-## Features
+## :cool: Features
 
 * Cross-browser compatibility.
-
 * Dashboards can be used to manage multiple charts that share the same data.
-
 * Data can also be fetched from a REST API endpoint or database service call.
-
 * Updated to Angular 9.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
-* Status: working app that displays a line chart, pie-chart and table-chart.
-
+* Status: working & deployed to GitHub.
 * To-Do: Add other chart types, including gauges. App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive.
 
-## Inspiration
+## :clap: Inspiration
 
 * [jscrambler blog by Jay Raj: Creating a Sales Dashboard Using Angular and Google Charts](https://blog.jscrambler.com/creating-a-sales-dashboard-using-angular-and-google-charts/)
-
 * [Google Charts Developers Guide](https://developers.google.com/chart/interactive/docs/gallery/controls)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
