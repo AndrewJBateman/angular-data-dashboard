@@ -75,8 +75,9 @@ private drawChart() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: working & deployed to GitHub.
-* To-Do: Add other chart types, including gauges. App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive.
+* Status: working & deployed to GitHub. Dependencies updated - typescript had to kept at v3.8.3 or there was a conflict and the app would not compile
+* To-Do: Add other chart types, including gauges
+* App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
 
 ## :clap: Inspiration
 
