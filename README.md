@@ -61,7 +61,7 @@ private drawChart() {
   const chart = new this.gLib.visualization.LineChart(document.getElementById('divLineChart'));
 
   chart.draw(data, options);
-}
+}j
 
 ```
 
@@ -75,7 +75,7 @@ private drawChart() {
 ## :clipboard: Status & To-Do List
 
 * Status: working & deployed to GitHub. Dependencies updated
-* To-Do: Add other chart types, including gauges
+* To-Do: Nothing
 * App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
 
 ## :clap: Inspiration
