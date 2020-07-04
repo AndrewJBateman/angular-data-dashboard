@@ -1,17 +1,17 @@
 # :zap: Angular Data Dashboard
 
-* Angular 9 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+* Angular 10 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular Data Dashboard](#zap-angular-data-dashboard)
-  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signalstrength-technologies)
-  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
@@ -20,7 +20,7 @@
 
 ## :books: General info
 
-Google chart tools have a wide range of interactive charts and data tools.
+* Google chart tools have a wide range of interactive charts and data tools.
 
 ## :camera: Screenshots
 
@@ -28,7 +28,7 @@ Google chart tools have a wide range of interactive charts and data tools.
 
 ## :signal_strength: Technologies
 
-* [Angular framework v9](https://angular.io/)
+* [Angular framework v10](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 * [Bootstrap v4](https://getbootstrap.com/)
 
@@ -71,7 +71,7 @@ private drawChart() {
 * Cross-browser compatibility.
 * Dashboards can be used to manage multiple charts that share the same data.
 * Data can also be fetched from a REST API endpoint or database service call.
-* Updated to Angular 9.
+* Updated to Angular 10.
 
 ## :clipboard: Status & To-Do List
 
