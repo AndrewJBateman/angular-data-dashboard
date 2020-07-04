@@ -30,7 +30,6 @@
 
 * [Angular framework v10](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
-* [Bootstrap v4](https://getbootstrap.com/)
 
 ## :floppy_disk: Setup
 
@@ -75,7 +74,7 @@ private drawChart() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: working & deployed to GitHub. Dependencies updated - typescript had to kept at v3.8.3 or there was a conflict and the app would not compile
+* Status: working & deployed to GitHub. Dependencies updated
 * To-Do: Add other chart types, including gauges
 * App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
 
