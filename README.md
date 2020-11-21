@@ -1,6 +1,7 @@
 # :zap: Angular Data Dashboard
 
-* Angular 10 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+* Angular 11 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+* Tutorial code from [Jay Raj](https://blog.jscrambler.com/author/jay-raj) at [jscrambler](https://jscrambler.com/) - see [:clap: Inspiration](#clap-inspiration) below.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -21,6 +22,8 @@
 ## :books: General info
 
 * Google chart tools have a wide range of interactive charts and data tools.
+* The Google Charts script files from `https://www.gstatic.com/charts/loader.js` are loaded into `assets/js/loader.js` and this path is included in the scripts section of the `angular.json` file.
+* A `google-chart.service` module is added so the Google Charts script can be used by multiple charts in the app.
 
 ## :camera: Screenshots
 
@@ -28,7 +31,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v10](https://angular.io/)
+* [Angular framework v11](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 
 ## :floppy_disk: Setup
@@ -74,9 +77,9 @@ private drawChart() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: working & deployed to GitHub. Dependencies updated
+* Status: working & deployed to GitHub.
 * To-Do: Nothing
-* App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
+* Note: App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
 
 ## :clap: Inspiration
 
