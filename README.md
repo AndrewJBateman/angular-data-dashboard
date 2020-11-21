@@ -73,7 +73,6 @@ private drawChart() {
 * Cross-browser compatibility.
 * Dashboards can be used to manage multiple charts that share the same data.
 * Data can also be fetched from a REST API endpoint or database service call.
-* Updated to Angular 10.
 
 ## :clipboard: Status & To-Do List
 
