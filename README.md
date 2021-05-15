@@ -1,9 +1,13 @@
 # :zap: Angular Data Dashboard
 
-* Angular 11 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+* Angular 12 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 * Tutorial code from [Jay Raj](https://blog.jscrambler.com/author/jay-raj) at [jscrambler](https://jscrambler.com/) - see [:clap: Inspiration](#clap-inspiration) below.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-data-dashboard?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-data-dashboard?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-data-dashboard?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-data-dashboard?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -17,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -31,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v11](https://angular.io/)
+* [Angular framework v12](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 
 ## :floppy_disk: Setup
@@ -76,7 +81,7 @@ private drawChart() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: working & deployed to GitHub.
+* Status: working & deployed to GitHub. Updated may 2021
 * To-Do: Nothing
 * Note: App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
 
@@ -85,6 +90,10 @@ private drawChart() {
 * [jscrambler blog by Jay Raj: Creating a Sales Dashboard Using Angular and Google Charts](https://blog.jscrambler.com/creating-a-sales-dashboard-using-angular-and-google-charts/)
 * [Google Charts Developers Guide](https://developers.google.com/chart/interactive/docs/gallery/controls)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
