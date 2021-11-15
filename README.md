@@ -1,6 +1,6 @@
 # :zap: Angular Data Dashboard
 
-* Angular 12 app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
+* Angular app using [Google Charts](https://developers.google.com/chart/) to create a dashboard with a [line-chart](https://developers.google.com/chart/interactive/docs/gallery/linechart), [pie-chart](https://developers.google.com/chart/interactive/docs/gallery/piechart) and [table-chart](https://developers.google.com/chart/interactive/docs/gallery/table).
 * Tutorial code from [Jay Raj](https://blog.jscrambler.com/author/jay-raj) at [jscrambler](https://jscrambler.com/) - see [:clap: Inspiration](#clap-inspiration) below.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -36,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v12](https://angular.io/)
+* [Angular framework v13](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 
 ## :floppy_disk: Setup
@@ -81,7 +81,7 @@ private drawChart() {
 
 ## :clipboard: Status & To-Do List
 
-* Status: working & deployed to GitHub. Updated may 2021
+* Status: working & deployed to GitHub.
 * To-Do: Nothing
 * Note: App is designed for PC/tablet and does not resize well for phones - could use angular mat cards or flex-grid to make it fully responsive
 
