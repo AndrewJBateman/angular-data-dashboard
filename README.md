@@ -36,7 +36,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v13](https://angular.io/)
+* [Angular framework v14](https://angular.io/)
 * [Google Charts](https://developers.google.com/chart/) based on pure html/svg.
 
 ## :floppy_disk: Setup
