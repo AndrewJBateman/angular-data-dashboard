@@ -91,6 +91,5 @@
         }
       }
     }
-  },
-  "defaultProject": "angular-data-dashboard"
+  }
 }
