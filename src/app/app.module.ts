@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GoogleChartModule } from './google-chart/google-chart.module';
 
@@ -11,7 +10,6 @@ import { GoogleChartModule } from './google-chart/google-chart.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
 		GoogleChartModule
   ],
   providers: [],
